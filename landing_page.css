@@ -12,6 +12,9 @@ h2{
     display: block;
     clear: both;
 }
+#navTop li{
+    border: 2px solid #ff0000;
+}
 #navTop ul {
     margin: 0;
     padding: 0;
@@ -25,9 +28,47 @@ h2{
     text-align: center;
     display: block;
     padding: 1em 0;
-    width: 220px;
+    width: 221px;
     text-decoration: none;
-    background-color: black;
-    color: white;
+    background-color: #278f0d;
+    color: #ff0000;
     font-weight: bold;
+}
+#navTop a.current {
+    color: #12d435;
+}
+#navTop ul li a:hover, #navTop ul li a:focus {
+    color: white;
+    background-color: #1c5d0c;
+}
+#navTop ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+#navTop ul ul li {
+    float: none;
+    position: relative;
+}
+#navTop ul ul li ul {
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+#navTop ul li.lastItem ul li ul {
+    position: absolute;
+    left: -100%;
+    top: 0;
+}
+#navTop ul li a:hover, #navTop ul li a:focus {
+    background-color: #c7e7f5;
+    color: #6e3b01;
+}
+#navTop ul li:hover > ul {
+    display: block;
+}
+#navTop > ul::after {
+    content: "";
+    display: block;
+    clear: both;
 }
