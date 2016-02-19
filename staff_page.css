@@ -1,0 +1,26 @@
+figure, figcaption{
+    margin: 0;
+    padding: 0;
+}
+figure{
+    border: 1px solid black;
+}
+figcaption{
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    font-size: 220%;
+    padding-bottom: .25em;
+}
+table {
+    border: 1px solid black;
+    margin: 10px auto;
+}
+th {
+    font-weight: bold;
+    font-size: 150%;
+    padding-bottom: .25em;
+}
+th, td {
+    border: 1px solid black;
+}
