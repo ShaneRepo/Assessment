@@ -72,3 +72,11 @@ h2{
     display: block;
     clear: both;
 }
+main img{
+    float: left;
+    margin-right: 25px;
+}
+main ul li{
+    font-size: 150%;
+
+}
