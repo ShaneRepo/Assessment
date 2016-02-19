@@ -1,3 +1,33 @@
 body {
     width: 900px;
+    margin: auto;
+}
+h2{
+    text-align: center;
+    padding: auto;
+    margin: auto;
+}
+#navTop {
+    width: 100%;
+    display: block;
+    clear: both;
+}
+#navTop ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+#navTop ul li {
+    float: left;
+}
+#navTop ul li a {
+    text-align: center;
+    display: block;
+    padding: 1em 0;
+    width: 202px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
 }
